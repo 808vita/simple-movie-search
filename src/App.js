@@ -6,9 +6,9 @@ import { Container } from "react-bootstrap";
 
 // const searchMovies = `https://api.themoviedb.org/3/search/movie?&api_key=${process.env.REACT_APP_API_KEY}&query=`;
 
-const featuredMovies = `/api/discover`;
+const featuredMovies = `https://movie-search-808.herokuapp.com/api/discover`;
 
-const searchMovies = `/api/search/`;
+const searchMovies = `https://movie-search-808.herokuapp.com/api/search/`;
 
 function App() {
 	const [movies, setMovies] = useState([]);
